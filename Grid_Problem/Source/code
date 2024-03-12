@@ -1,1 +1,52 @@
 
+#include <bits/stdc++.h>
+using namespace std;
+
+#define ll long long int
+#define frn(i) for(int i=0;i<n;i++)
+#define mod (ll) 1000000007
+ int uniquePathsWithObstacles(vector<string>& path) {
+      
+        int m=path.size();
+        int n=path[0].size();
+        if(path[0][0]==1 || path[m-1][n-1]==1) return 0;
+        vector<vector<int>>dp(m,vector<int>(n,-1));
+        dp[0][0]=1;
+        for(int i=0;i<m;i++)
+        {
+          for(int j=0;j<n;j++)
+          {
+            int up=0;
+            int left=0;
+            if(i==0 && j==0) continue;
+            if(path[i][j]!='*')
+            {
+              if(i>0) up=dp[i-1][j];
+              if(j>0) left=dp[i][j-1];
+            }
+            dp[i][j]=(up+left)%mod;
+          }
+        }
+      return dp[m-1][n-1]%mod;
+    }
+void solve()
+{
+   ll n;
+   cin>>n;
+   vector<string>v(n);
+   for(int i=0;i<n;i++)
+   {
+       cin>>v[i];
+     }
+
+   cout<<uniquePathsWithObstacles(v)<<"\n";
+
+}
+int main(){
+//  ll cases;
+//  cin>>cases;
+//  while(cases--)
+//  {
+    solve();
+//  }
+}
