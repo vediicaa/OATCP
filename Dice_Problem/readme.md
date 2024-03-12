@@ -3,3 +3,6 @@ The algorithm used in this code is dynamic programming. It uses a 2D vector dp t
 The uniquePathsWithObstacles function takes a vector of strings as input, where each string represents a row of the grid. It returns the number of unique paths from the top-left corner to the bottom-right corner of the grid that do not go through any obstacles.
 
 The solve function reads the input grid, calls the uniquePathsWithObstacles function, and prints the result.
+
+The source file contains the code and the makefile, with the instructions on how to run the code
+The output file consists of all the testcases files used to check the code with their corresponding outputs.
