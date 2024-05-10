@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+#define ll long long int
+using namespace std;
+
+bool static compare(int a,int b){
+   string p=to_string(a), q=to_string(b);
+   return p+q>q+p;
+}
+   
+string largestNumber(vector<int>& vec) {
+    int n=vec.size();
+    sort(vec.begin(), vec.end(), compare);
+    string res;
+    for(int i=0; i<n; i++) res+=to_string(vec[i]);
+    if(res[0]=='0') return "0";
+    return res;
+}
+
+int main()
+{
+    int N;
+    cin>>N;
+    vector<int>v;
+    cout<<"nums= ";
+    for(int i=0;i<N;i++){
+        int x;
+        cin>>x;
+        v.push_back(x);
+    }
+    
+    cout<<largestNumber(v);
+	
+}
