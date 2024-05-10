@@ -1,0 +1,20 @@
+Input:
+Enter the size of the array: 4
+Enter 4 integers separated by spaces: 4 3 2 6
+
+Output:
+Maximum rotate value: 26
+
+Input:
+Enter the size of the array: 1
+Enter 1 integers separated by spaces: 0
+
+Output:
+Maximum rotate value: 26
+
+Input:
+Enter the size of the array: 10
+Enter 10 integers separated by spaces: 4 7 3 1 0 15 8 2 9 12
+
+Output:
+Maximum rotate value: 333
