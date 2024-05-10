@@ -1,0 +1,27 @@
+Input:
+Enter the size of the grid (n): 5
+Enter the grid elements (0 for white, 1 for black):
+0 1 0 0 1
+0 1 1 0 0
+1 0 0 0 0
+0 1 1 0 1
+0 0 0 0 0
+
+Output:
+2
+
+Input:
+Enter the grid elements (0 for white, 1 for black):
+0 0 0 1 0 0 1 0 0 1
+1 0 0 1 1 0 0 1 0 0
+1 0 1 1 0 1 0 1 1 1
+0 0 0 0 1 1 1 0 0 1
+0 0 0 1 0 0 1 0 0 1
+1 1 0 1 0 0 1 1 1 1
+0 0 0 0 0 0 0 0 1 1
+1 1 1 1 1 1 1 0 0 1
+1 0 0 1 0 1 0 0 1 1
+0 1 0 1 1 1 0 0 1 0
+
+Output:
+112
