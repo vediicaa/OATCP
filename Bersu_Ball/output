@@ -1,0 +1,17 @@
+Input:
+Enter num of boys:6
+3 5 2 1 3 1
+Enter num of girls:4
+6 3 1 2
+
+Output:
+4
+
+Input:
+Enter num of boys:0
+0
+Enter num of girls:0
+0
+
+Output:
+0
