@@ -1,0 +1,26 @@
+#Test File 1
+Input:
+Number of coins=6
+Costs=4 2 7 3 1 3
+coins=13
+
+Output:
+5
+
+#Test File 2
+Input:
+Number of coins=7
+Costs=6 5 8 9 10 7 12
+coins=4
+
+Output:
+0
+
+#Test File 3
+Input:
+Number of coins=4
+Costs=3 4 2 5
+coins=0
+
+Output:
+0
