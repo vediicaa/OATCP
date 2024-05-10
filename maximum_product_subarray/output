@@ -1,0 +1,25 @@
+Input:
+Enter n: 4
+4 3 -1 6
+
+Output:
+Maximum product of a subarray: 12
+
+
+Input:
+Enter n: 1
+0
+
+Output:
+Maximum product of a subarray: 0
+
+Input:
+Enter n: 7
+8 9 6 -3 0 2 -5
+
+Output:
+Maximum product of a subarray: 432
+
+
+
+
